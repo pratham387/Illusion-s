@@ -1,0 +1,154 @@
+*{
+    margin: 0;}
+/* }
+ #square{
+    border: 1px solid black;
+    height: 500px;
+    width: 1300px;
+    box-shadow: 0px 0px 7px;
+    margin: 50px auto;
+    background-image: repeating-linear-gradient(45deg ,red 0px , red 10px , black 10px , black 20px);
+    animation: hey 2s linear 0s infinte ;
+    
+} */
+@keyframes hey {
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(100px) ;
+    }
+}
+.grid{
+    height: 450px;
+    width: 1300px;
+    /* border-radius: 50%; */
+    border: 2px solid black;
+    display: grid;
+    gap:10px;
+    /* margin-top: 550px; */
+    grid-template-columns: 300px 300px 300px;
+    background-color:rgb(183, 63, 12);
+    margin-left: 45px;
+}
+#circle{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px;
+    /* margin: 50px auto; */
+    background-image: repeating-conic-gradient( green 15% , black 20% );
+    animation: yo 5s linear infinite;
+    position: relative;
+    right: 300px;
+}
+#circle:hover{
+    background-image: repeating-conic-gradient(rgb(109, 12, 109) 15% , yellow 20%);
+}
+@keyframes yo{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(800deg);
+    }
+}
+#circle2{
+    height:400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px;
+    background-image: repeating-conic-gradient(green 15% , black 20%);
+    animation: yeah 5s linear infinite;
+    position: relative;
+    left: 270px;
+}
+#circle2:hover{
+    background-image: repeating-conic-gradient(rgb(109, 12, 109) 15% , yellow 20%);
+}
+@keyframes yeah {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(800deg);
+    }
+}
+#bigc{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px;
+    background-image: repeating-conic-gradient(red 15% ,black 20%);
+    animation: hi 5s linear infinite;
+    position:relative;
+    left: 450px;
+    bottom: 400px;
+}
+#bigc:hover{
+    background-image: repeating-conic-gradient(rgb(38, 8, 147) 15% , yellow 20%);
+}
+@keyframes hi {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(800deg);
+    }
+}
+h1{
+    text-align: center;
+    text-shadow: 0px 0px 8px;
+    color: aliceblue;
+
+}
+.grid:hover{
+    background-color: yellow;}
+#ill{
+    height: 60px;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: 90px;
+    /* text-decoration: none; */
+    background-color: sienna;
+    /* box-shadow: 0px 0px 7px; */
+    border: 12px groove black;
+    text-align: center;
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+#mov{
+    height: 60px;
+    width: 200px;
+    margin-left: 960px;
+    position: relative;
+    bottom: 80px;
+    background-color: sienna;
+    border: 12px groove black;
+    text-align: center;
+}
+body{
+    background-image: repeating-linear-gradient( yellow,black,orange);
+}
+#rat{
+    height: 60px;
+    width: 200px;
+    background-color: sienna;
+    border: 12px groove black;
+    text-align: center;
+    margin-left: 540px;
+    position: relative;
+    bottom: 160px;
+
+}
+
+
+

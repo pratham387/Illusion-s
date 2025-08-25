@@ -1,0 +1,83 @@
+.moving-gradient {
+    background: repeating-linear-gradient(45deg, white, white, #000 10px, #000 20px);
+    animation: move-bg 2s linear infinite;
+    height: 600px;
+    width: 1300px;
+    margin-left: 40px;
+}
+@keyframes move-bg {
+    from { background-position: 0 0; }
+    to { background-position: 600px 600px; }
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 0px 7px;
+    font-size: 40px;
+    color: aliceblue;
+}
+#morat{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px;
+    background-image: repeating-conic-gradient( white 15%,black 20%);
+    animation: hi 5s linear infinite;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    
+
+}
+@keyframes hi {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1000deg);
+    }
+}
+#ill{
+    height: 60px;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: 60px;
+    /* text-decoration: none; */
+    background-color: sienna;
+    /* box-shadow: 0px 0px 7px; */
+    border: 12px groove black;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+#mov{
+    height: 60px;
+    width: 200px;
+    margin-left: 960px;
+    position: relative;
+    bottom: 65px;
+    background-color: sienna;
+    border: 12px groove black;
+    text-align: center;
+    
+}
+body{
+    background-image: repeating-linear-gradient( yellow,black,orange);}
+
+#rat{
+    height: 60px;
+    width: 200px;
+    background-color: sienna;
+    border: 12px groove black;
+    text-align: center;
+    margin-left: 540px;
+    position: relative;
+    bottom: 150px;
+    /* color: aliceblue; */
+
+}
